@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>InstaPet</title>
+</head>
+
+<body>
+
+    <form class="formulario" action="https://formsubmit.co/lucianoarielmoyano1@gmail.com" method="post">
+        <div class="circulo">
+            <img class="imagen" src="perro.png" alt="">
+        </div>
+        <h2 class="titulo">Registra tu mascota</h2>
+        <div class="contenido">
+            <label for="nombre">Nombre de la mascota</label>
+            <input class="input" type="text" id="nombre" name="nombre" placeholder="Escribe su nombre" required>
+
+            <label for="edad">Edad de la mascota</label>
+            <input class="input" type="number" id="edad" name="edad" placeholder="Escribe su edad" required>
+
+            <label for="correo">Correo Electronico</label>
+            <input class="input" type="email" id="correo" name="correo" placeholder="Escribe tu correo" required>
+
+            <label for="contraseña">Contraseña</label>
+            <input class="input" type="password" id="contraseña" name="contraseña" placeholder="Escribe tu contraseña" required>
+
+            <label for="color">Color de la mascota</label>
+            <input class="input" type="color" id="color" name="color" placeholder="Color de tu mascota" required>
+
+            <label for="tipo-mascota">Tipo de mascota</label>
+            <select name="tipo-mascota" id="tipo-mascota">
+                <option value="" disabled selected>Selecciona un tipo</option>
+                <option value="perro">Perro</option>
+                <option value="gato">Gato</option>
+                <option value="otro">Otro</option>
+            </select>
+            <br>
+            <br>
+            <input type="checkbox" id="condiciones" name="condiciones" value="acepta" required>
+            <label class="condiciones" for="condiciones">Acepto las bases y condiciones</label>
+            <br>
+            <br>
+            <input class="enviar" type="submit" value="Enviar" />
+        </div>
+    </form>
+    
+    <br>
+    <br>
+
+    <div class="gato">
+    <marquee behavior="" direction="rigth" width="45%">
+    <img src="cat1.gif" alt="gato" width="15%" height="15%">
+    </marquee>
+    </div>
+
+    <div class="bienvenida">
+        <img class="animales" src="animales2.png" alt="" height="300px">
+        <h1 style="margin-top: -125px; font-size: 65px;">InstaPet</h1>
+        <br>
+        <h3>InstaPet es una red social donde puedes compartir<br>las aventuras de tus mascotas.</h3>
+        <a href="https://github.com/FranRodriguez3002"><button>GitHub</button></a>
+    </div>
+
+
+
+</body>
+
+</html>
